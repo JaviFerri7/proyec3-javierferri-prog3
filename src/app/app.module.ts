@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { UserScreenComponent } from './user-screen/user-screen.component';
 import { SrtComponent } from './srt/srt.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, UserScreenComponent, SrtComponent ],
+  declarations: [ AppComponent, HelloComponent, UserScreenComponent, SrtComponent, NewsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
