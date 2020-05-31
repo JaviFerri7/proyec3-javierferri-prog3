@@ -5,7 +5,7 @@ import { SrtComponent } from "./srt/srt.component";
 
 const app_routes: Routes=[
   {path:'app-app-multas', component: AppMultasComponent},
-  {path:'app-srt', component: AppMultasComponent}
+  {path:'app-srt', component: SrtComponent}
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);
