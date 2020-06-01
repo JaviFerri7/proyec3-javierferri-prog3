@@ -1,3 +1,9 @@
 p {
   font-family: Lato;
 }
+body{
+  background: gray;
+}
+h2{
+  color: white;
+}
