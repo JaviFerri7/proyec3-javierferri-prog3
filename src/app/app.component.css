@@ -4,6 +4,10 @@ p {
 body{
   background: gray;
 }
-.page-footer{
-  color:black
+#f{
+  background-color: #343A40;
 }
+.text-center{
+  color: white;
+}
+
