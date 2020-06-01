@@ -3,6 +3,7 @@ p {
 }
 body{
   background: gray;
+  width: 100%;
 }
 #f{
   background-color: #343A40;
