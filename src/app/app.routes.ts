@@ -2,7 +2,7 @@ import{RouterModule, Routes}from '@angular/router';
 
 import { AppMultasComponent } from "./app-multas/app-multas.component";
 import { SrtComponent } from "./srt/srt.component";
-
+import { AppComponent } from "./app.component"
  
 const app_routes: Routes=[
   {path:'app-app-multas', component: AppMultasComponent},
