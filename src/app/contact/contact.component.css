@@ -1,0 +1,19 @@
+.crmWebToEntityForm{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100vw;
+  color: white;
+  margin: 0;
+  grid-gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Botón  */
+[type="submit"].success,
+[type="reset"].alert{
+  grid-row: auto;
+  justify-self: center;
+  color: white;
+}
