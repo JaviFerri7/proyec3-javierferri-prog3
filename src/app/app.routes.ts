@@ -9,7 +9,8 @@ const app_routes: Routes=[
   {path:'app-app-multas', component: AppMultasComponent},
   {path:'app-srt', component: SrtComponent},
   {path:'app-contact', component:ContactComponent},
-  {path:'app-home', component:HomeComponent}
+  {path:'app-home', component:HomeComponent},
+  { path: '**', component: HomeComponent}
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);
