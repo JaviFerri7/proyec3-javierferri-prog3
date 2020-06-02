@@ -1,9 +1,11 @@
 .main article {
     float: left;
-    width: 100%;
+    /* width: 100%; */
 }
 .main-container{
   margin-top: -80px;
+  width: 100%;
+  min-width: 380px;
 }
 /*--------------Estilos Formulario----------------------*/
 /*-----Estilos para el H2------*/
@@ -107,11 +109,11 @@ button.submit:active {
     border: 1px solid #222;
     box-shadow: 0 0 10px 5px #444 inset; 
 }
-@media(min-width: 460px){ 
+/* @media(min-width: 360px){ 
    #acomodar{
-      display:inline-block;
+      display:block;
   }
-}
+} */
 
 
 
