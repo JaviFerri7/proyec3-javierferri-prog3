@@ -8,11 +8,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { SrtComponent } from './srt/srt.component';
 import { AppMultasComponent } from './app-multas/app-multas.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, app_routing ],
-  declarations: [ AppComponent, HelloComponent, SrtComponent, AppMultasComponent],
+  declarations: [ AppComponent, HelloComponent, SrtComponent, AppMultasComponent, ContactComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
