@@ -2,7 +2,9 @@
     float: left;
     width: 100%;
 }
-
+.main-container{
+  margin-top: -70px;
+}
 /*--------------Estilos Formulario----------------------*/
 /*-----Estilos para el H2------*/
 .formulario h2 {
