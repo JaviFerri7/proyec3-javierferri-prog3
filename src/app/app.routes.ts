@@ -8,7 +8,7 @@ import { HomeComponent } from "./home/home.component";
 const app_routes: Routes=[
   {path:'app-app-multas', component: AppMultasComponent},
   {path:'app-srt', component: SrtComponent},
-  {path:'app-contact', component:ContactComponent}
+  {path:'app-contact', component:ContactComponent},
   {path:'app-home', component:HomeComponent}
 ];
 
