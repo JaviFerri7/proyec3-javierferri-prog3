@@ -10,11 +10,12 @@ import { SrtComponent } from './srt/srt.component';
 import { AppMultasComponent } from './app-multas/app-multas.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, app_routing ],
-  declarations: [ AppComponent, HelloComponent, SrtComponent, AppMultasComponent, ContactComponent, AppFooterComponent],
+  declarations: [ AppComponent, HelloComponent, SrtComponent, AppMultasComponent, ContactComponent, AppFooterComponent, HomeComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
