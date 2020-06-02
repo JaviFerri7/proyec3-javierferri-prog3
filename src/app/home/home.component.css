@@ -1,0 +1,17 @@
+/********* WELCOME PAGE *********/
+#welcome-section {
+  margin-top:-50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  /* background: green; */  /* fallback for old browsers */
+  background: linear-gradient(to right, gray, white);
+}
+
+#welcome-section p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
