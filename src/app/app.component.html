@@ -21,12 +21,13 @@
                 <a class="dropdown-item" href="#">Registro Civil</a>
               </div>
             </li>
-            <li class="nav-item" routerLinkActive="active">
-              <a class="nav-link" [routerLink]="['app-srt']" aria-disabled="true">Contacto SrT</a>
-            </li>
              <li class="nav-item" routerLinkActive="active">
               <a class="nav-link" [routerLink]="['app-contact']" aria-disabled="true">Contacto Municipal</a>
             </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['app-srt']" aria-disabled="true">SemperReinvent Technology</a>
+            </li>
+            
           </ul>
         </div>
     </nav>
@@ -35,16 +36,5 @@
     <router-outlet></router-outlet>
   </div>
 
-  <!-- Footer -->  
-  <footer class="page-footer font-small blue" id="f">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-      <img src="https://stackblitz.com/files/proyec3-javierferri-prog3/github/JaviFerri7/proyec3-javierferri-prog3/master/img-prac3/logo-vma-footer.png"> 
-                Semper Reinvent Technology : 2020  ©
-        
-    </div>
-    <!-- Copyright -->
-  </footer>
-
 </body>
+<app-app-footer></app-app-footer>
