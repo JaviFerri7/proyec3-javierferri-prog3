@@ -3,7 +3,7 @@
     width: 100%;
 }
 .main-container{
-  margin-top: -70px;
+  margin-top: -80px;
 }
 /*--------------Estilos Formulario----------------------*/
 /*-----Estilos para el H2------*/
@@ -13,7 +13,7 @@
     color: whitesmoke;
    /*display: block;*/
     padding: 2%;
-    text-shadow: 1px 1px 1px #CCCCCC;
+    text-shadow: 1px 1px 1px black;
     width: 80%;
 }
 /*--- estilos para los ul y li del formulario ---*/
@@ -107,3 +107,11 @@ button.submit:active {
     border: 1px solid #222;
     box-shadow: 0 0 10px 5px #444 inset; 
 }
+@media(min-width: 375px){ 
+   nombre de label: block;
+}
+#acomodar{
+  display:block;
+}
+
+
