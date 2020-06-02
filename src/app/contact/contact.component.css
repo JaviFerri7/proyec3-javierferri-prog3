@@ -96,11 +96,12 @@ button.submit {
    border: 1px solid #f1f1f1;
    border-radius: 10px;
    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+   float:right;
 }
 button.submit:hover {
     opacity:.55;
     cursor: pointer; 
-    color: #fff;
+    color:black;
 }
 button.submit:active {
     border: 1px solid #222;
