@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
   width: 100%;
   /* background: green; */  /* fallback for old browsers */
   background: linear-gradient(to right, gray, white);
@@ -14,4 +14,3 @@
   font-size: 1.5rem;
   text-align: center;
 }
-
