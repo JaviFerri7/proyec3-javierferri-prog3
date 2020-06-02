@@ -7,7 +7,7 @@
   height: 100vh;
   width: 100%;
   /* background: green; */  /* fallback for old browsers */
-  /* background: linear-gradient(to right, gray, white); */
+  background: linear-gradient(to right, gray, white);
 }
 
 #welcome-section p {
