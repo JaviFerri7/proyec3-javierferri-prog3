@@ -107,11 +107,11 @@ button.submit:active {
     border: 1px solid #222;
     box-shadow: 0 0 10px 5px #444 inset; 
 }
-@media(min-width: 375px){ 
-   nombre de label: block;
+@media(min-width: 460px){ 
+   #acomodar{
+      display:inline-block;
+  }
 }
-#acomodar{
-  display:block;
-}
+
 
 
