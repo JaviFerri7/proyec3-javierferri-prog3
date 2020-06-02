@@ -7,10 +7,17 @@
   height: 600px;
   width: 100%;
   /* background: green; */  /* fallback for old browsers */
-  background: linear-gradient(to right, gray, white);
+  background: linear-gradient(to right, white, grey);
 }
 
 #welcome-section p {
   font-size: 1.5rem;
   text-align: center;
+}
+#welcome-section h1{
+  color:;
+}
+
+#imag{
+  text-align: right;
 }
