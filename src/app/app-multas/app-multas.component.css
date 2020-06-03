@@ -5,5 +5,10 @@ h2{
   color: white;
 }
 .text-justify{
-  top:-80px;
+  top:-30px;
+}
+.tittle{
+  text-align: center;
+  color:white;
+  text-decoration: underline;
 }
