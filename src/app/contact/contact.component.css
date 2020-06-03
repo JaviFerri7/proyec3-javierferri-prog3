@@ -1,6 +1,15 @@
 .tittle{
   text-align:center;
-  color:white;
+  color:black;
+  text-decoration: underline;
+ 
 }
+.container{
+  text-align: center;
+  /* margin:0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
