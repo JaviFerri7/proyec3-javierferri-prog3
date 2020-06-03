@@ -11,10 +11,12 @@ h1{
 
 }
 
-
+.content-text{
+  margin-bottom: -18px;
+  font-size: 200%;
+  text-align: center;
+}
 .contenedor{
   width: 100%;
-}
-#cont{
-  width: 100%;
+  background: grey;
 }
